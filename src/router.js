@@ -7,7 +7,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 // import RequestsReceived from './pages/requests/RequestsReceived.vue'
 // import NotFound from './pages/NotFound.vue'
 // import UserAuth from './pages/auth/UserAuth.vue'
-// import store from './store/index.js'
+import store from './store/index.js'
 
 const CoachDetail = () => import('./pages/coaches/CoachDetail.vue')
 const CoachesLists = () => import('./pages/coaches/CoachesLists.vue')
@@ -16,7 +16,7 @@ const ContactCoach = () => import('./pages/requests/ContactCoach.vue')
 const RequestsReceived = () => import('./pages/requests/RequestsReceived.vue')
 const NotFound = () => import('./pages/NotFound.vue')
 const UserAuth = () => import('./pages/auth/UserAuth.vue')
-const store = () => import('./store/index.js')
+// const store = () => import('./store/index.js')
 
 
 const router = createRouter({
